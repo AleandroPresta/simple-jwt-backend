@@ -1,5 +1,5 @@
 package com.auth.jwt.backend.credentials;
 
-public record CredentialsDto() {
+public record CredentialsDto(String login, char[] password) {
     
 }
